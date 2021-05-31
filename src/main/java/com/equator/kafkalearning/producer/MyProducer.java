@@ -15,7 +15,7 @@ public class MyProducer {
         // 创建Kafka配置信息
         Properties conf = new Properties();
         // 指定连接的Kafka集群
-        conf.put("bootstrap.servers", "kafka1:9092");
+        conf.put("bootstrap.servers", "kafka1:9092;kafka2:9093;kafka3:9094");
         // ack策略
         conf.put("acks", "all");
         // 重试次数
