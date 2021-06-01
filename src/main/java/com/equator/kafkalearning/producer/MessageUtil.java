@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class MessageUtil {
     public static String getMsg() {
-        return String.valueOf(new Date().getTime());
+        return String.valueOf(System.currentTimeMillis());
     }
 
     public static void main(String[] args) {
